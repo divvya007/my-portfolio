@@ -67,6 +67,7 @@ body {
   height: 100%;
   transition: background 0.5s ease 0s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @keyframes mymove {
@@ -118,4 +119,20 @@ body {
   animation-fill-mode: none;
   animation-play-state: running;
   animation-name: mymove;
+}
+
+.container__projects {
+  color: white;
+  margin-top: 224%;
+  text-align: center;
+}
+#btn {
+  padding: 20px;
+  border-radius: 100%;
+  background-color: none;
+  border: 1px solid white;
+  margin-bottom: 2px;
+}
+
+.myProjectBlock:hover {
 }
